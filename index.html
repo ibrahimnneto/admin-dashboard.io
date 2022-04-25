@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <div class="top-bar">
+              <div class="search-bar">
+                <label for="search-bar"
+                  ><span class="material-icons-outlined search-icon">
+                    search
+                  </span></label>
+                <input type="text" name="search" id="search" />
+              </div>
+              <div class="notifications-bar">
+                <span class="material-icons-outlined">notifications</span>
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/40950133605387.56ba11f7518fd.jpg" alt="">
+                Mustache Mustacheson
+              </div>
+          </div>
+          <div class="bottom-bar">
+              <div class="hi-user">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/40950133605387.56ba11f7518fd.jpg" alt="">
+              </div>
+              <div class="hi-there">Hi there, <br> Mustache Mustacheson</div>
+              <div class="new"> 
+                <button id="btn-header">New</button>
+                <button id="btn-header">Upload</button>
+                <button id="btn-header">Share</button>
+              </div>
+          </div>
+        </div>
+        <div class="sidebar">
+            <div class="logo"><span class="material-icons-outlined" id="logo1">dashboard</span> Dashboard</div>
+                <ul class="first-part">
+                    <li onclick="location.href='#';" style="cursor: pointer;"><span class="material-icons-outlined" >home</span> Home</li>
+                    <li onclick="location.href='#';" style="cursor: pointer;"><span class="material-icons-outlined">person</span> Profile</li>
+                    <li onclick="location.href='#';" style="cursor: pointer;"><span class="material-icons-outlined">question_answer</span> Messages</li>
+                    <li onclick="location.href='#';" style="cursor: pointer;"><span class="material-icons-outlined">history</span> History</li>
+                    <li onclick="location.href='#';" style="cursor: pointer;"><span class="material-icons-outlined">task</span> Tasks</li>
+                    <li onclick="location.href='#';" style="cursor: pointer;"><span class="material-icons-outlined">groups</span> Communities</li>
+                </ul>
+                <ul class="second-part">
+                    <li onclick="location.href='#';" style="cursor: pointer;"><span class="material-icons-outlined">settings</span> Settings</li>
+                    <li onclick="location.href='#';" style="cursor: pointer;"><span class="material-icons-outlined">help_center</span> Support</li>
+                    <li onclick="location.href='#';" style="cursor: pointer;"><span class="material-icons-outlined">verified_user</span> Privacy</li>
+                </ul>
+        </div>
+        
+        <div class="dashboard"> <div class="dash-text"><p> Your Projects</p></div>
+            <div class="projects">
+              <div class="project-item1" id="items"> 
+                <div class="text"> 
+                  <h1>Super Cool Project</h1>
+                  <p id="projects-p">Ipsa alias omnis iste magnam dicta dolorem incidunt        
+                    itaque facilis nemo aperiam. Reprehenderit porro eos 
+                    dignissimos beatae et voluptatem? Asperiores, 
+                    sed praesentium!</p>
+                </div>
+                <div class="icons">
+                  <button id="btn1"><span class="material-icons-outlined">star_border</span></button>
+                  <button id="btn1"><span class="material-icons-outlined">visibility</span></button>
+                  <button id="btn1"><span class="material-icons-outlined">share</span></button>
+                </div>
+              </div>
+              <div class="project-item2" id="items">
+                <div class="text"> 
+                  <h1>Easy Peasy App</h1>
+                  <p>Turpis egestas integer eget aliquet nibh praesent tristique magna. 
+                    Neque laoreet suspendisse interdum consectetur libero. 
+                    Etiam erat velit scelerisque in dictum non consectetur a. 
+                    Amet facilisis magna bananas in pyjamas!</p>
+                </div>
+                <div class="icons">
+                  <button id="btn1"><span class="material-icons-outlined">star_border</span></button>
+                  <button id="btn1"><span class="material-icons-outlined">visibility</span></button>
+                  <button id="btn1"><span class="material-icons-outlined">share</span></button>
+                </div>
+              </div>
+              <div class="project-item3" id="items">
+                <div class="text"> 
+                  <h1>Less Cool Project</h1>
+                  <p>Risus commodo viverra maecenas accumsan lacus vel. 
+                    Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. 
+                    Nec sagittis aliquam malesuada bibendum arcu vitae elementum.</p>
+                </div>
+                <div class="icons">
+                  <button id="btn1"><span class="material-icons-outlined">star_border</span></button>
+                  <button id="btn1"><span class="material-icons-outlined">visibility</span></button>
+                  <button id="btn1"><span class="material-icons-outlined">share</span></button>
+                </div>
+              </div>
+              <div class="project-item4" id="items">
+                <div class="text"> 
+                  <h1>Impossible App </h1>
+                  <p>Amet purus gravida quis blandit turpis cursus. 
+                    Enim facilisis gravida neque convallis a cras semper.
+                    Dapibus ultrices in iaculis nunc sed augue.</p>
+                </div>
+                <div class="icons">
+                  <button id="btn1"><span class="material-icons-outlined">star_border</span></button>
+                  <button id="btn1"><span class="material-icons-outlined">visibility</span></button>
+                  <button id="btn1"><span class="material-icons-outlined">share</span></button>
+                </div>
+              </div>
+              <div class="project-item5" id="items"> 
+                <div class="text"> 
+                  <h1>Ad Blocker</h1>
+                  <p>Turpis egestas integer eget aliquet nibh praesent tristique magna. 
+                    Neque laoreet suspendisse interdum consectetur libero. 
+                    Etiam erat velit scelerisque in dictum non consectetur a.</p>
+                </div>
+                <div class="icons">
+                  <button id="btn1"><span class="material-icons-outlined">star_border</span></button>
+                  <button id="btn1"><span class="material-icons-outlined">visibility</span></button>
+                  <button id="btn1"><span class="material-icons-outlined">share</span></button>
+                </div>
+              </div>
+              <div class="project-item6" id="items">
+                <div class="text"> 
+                  <h1>Money Maker</h1>
+                  <p>Ullamcorper morbi tincidunt ornare massa eget egestas purus. 
+                    Dis parturient montes nascetur ridiculus.
+                    Euismod quis viverra nibh cras pulvinar mattis. 
+                    Mattis rhoncus urna neque viverra justo nec.</p>
+                </div>
+                <div class="icons">
+                  <button id="btn1"><span class="material-icons-outlined">star_border</span></button>
+                  <button id="btn1"><span class="material-icons-outlined">visibility</span></button>
+                  <button id="btn1"><span class="material-icons-outlined">share</span></button>
+                </div>
+              </div>
+
+            </div>
+        </div>
+        <div class="right-sidebar">
+            <div class="p">Announcements</div>
+            <div class="content">                
+                <div class="announcements">
+                  <div class="announcement1">
+                    <h5>Site Maintenance</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                      adipisicing elit. 
+                      Dolores voluptatum ipsa cupiditate unde...</p>
+                  </div>
+                  <div class="announcement2">
+                    <h5>Community Share Day</h5>
+                    <p>Vel rem, ipsa officia commodi veniam excepturi, ex, 
+                      molestias perspiciatis consequuntur sint error voluptatem...</p>
+                  </div>
+                  <div class="announcement3">
+                    <h5>updated Privacy Policy</h5>
+                    <p>Accusamus nihil dicta, quisquam, 
+                      similique doloremque unde quidem quaerat a possimus eum deleniti liber</p>                    
+                  </div>
+                </div>
+                <div class="trending"> Trending</div>
+                <div class="trending-p">
+                  <div class="div1" id="img"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/9d798a46734829.5607e104d1641.png" alt=""></div>
+                  <div class="div1" id="img"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/f0aacc50327021.56087edf32e57.png" alt=""></div>
+                  <div class="div1" id="img"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/fa8d5746734833.5607e20a57157.png" alt=""></div>
+                  <div class="div1" id="img"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/a61a2c46734837.5607dffb15013.png" alt=""></div>
+                  <div class="trend-text1" id="trend-texts"> <b>@tegan</b> <br> World Peace Builder</div>
+                  <div class="trend-text2" id="trend-texts"><b>@morgan</b> <br> Super Cool Project</div>
+                  <div class="trend-text3" id="trend-texts"><b>@kendall</b> <br> Life Changing App</div>
+                  <div class="trend-text4" id="trend-texts"><b>@alex</b> <br> No Traffic Maker</div>
+                </div>
+            </div>          
+        </div>
+        
+    </div>
+</body>
+</html>
